@@ -1,14 +1,15 @@
 {
-  "main.css": "/beer-with-me/static/css/main.bf55eefa.chunk.css",
-  "main.js": "/beer-with-me/static/js/main.f3e3b297.chunk.js",
-  "main.js.map": "/beer-with-me/static/js/main.f3e3b297.chunk.js.map",
-  "static/js/1.ac9ffd09.chunk.js": "/beer-with-me/static/js/1.ac9ffd09.chunk.js",
-  "static/js/1.ac9ffd09.chunk.js.map": "/beer-with-me/static/js/1.ac9ffd09.chunk.js.map",
+  "main.css": "/beer-with-me/static/css/main.3d831ade.chunk.css",
+  "main.js": "/beer-with-me/static/js/main.8b0df2d8.chunk.js",
+  "main.js.map": "/beer-with-me/static/js/main.8b0df2d8.chunk.js.map",
+  "static/css/1.2652b721.chunk.css": "/beer-with-me/static/css/1.2652b721.chunk.css",
+  "static/js/1.15ee13d3.chunk.js": "/beer-with-me/static/js/1.15ee13d3.chunk.js",
+  "static/js/1.15ee13d3.chunk.js.map": "/beer-with-me/static/js/1.15ee13d3.chunk.js.map",
   "runtime~main.js": "/beer-with-me/static/js/runtime~main.b76091c8.js",
   "runtime~main.js.map": "/beer-with-me/static/js/runtime~main.b76091c8.js.map",
-  "static/media/logo.svg": "/beer-with-me/static/media/logo.5d5d9eef.svg",
-  "static/css/main.bf55eefa.chunk.css.map": "/beer-with-me/static/css/main.bf55eefa.chunk.css.map",
+  "static/css/1.2652b721.chunk.css.map": "/beer-with-me/static/css/1.2652b721.chunk.css.map",
+  "static/css/main.3d831ade.chunk.css.map": "/beer-with-me/static/css/main.3d831ade.chunk.css.map",
   "index.html": "/beer-with-me/index.html",
-  "precache-manifest.5bd146bdc5ece4156067a69aa1142358.js": "/beer-with-me/precache-manifest.5bd146bdc5ece4156067a69aa1142358.js",
+  "precache-manifest.2912bbdbe6805be99e8dd7998c96030e.js": "/beer-with-me/precache-manifest.2912bbdbe6805be99e8dd7998c96030e.js",
   "service-worker.js": "/beer-with-me/service-worker.js"
 }
