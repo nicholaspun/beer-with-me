@@ -17,7 +17,8 @@ export default class App extends Component {
   componentDidMount() {
     axios.get('https://beer-necessities.herokuapp.com/beers')
       .then((res) => {
-        this.setState({beerData: res.data});
+        const sortedData = res.data.sort((a, b) => b['rating']  - a['rating'])
+        this.setState({beerData: sortedData});
       })
   }
 
@@ -25,23 +26,23 @@ export default class App extends Component {
     const { beerData } = this.state;
     const { SearchBar } = Search;
 
-    const columns = ['Name', 'Brewery', 'Rating'].map(col => ({ dataField: col, text: col }));
+    const columns = ['name', 'brewery', 'rating'].map(col => ({ dataField: col, text: col }));
 
-    const expandRow = {
-      renderer: row => (
-        <React.Fragment>
-          <div><b>Look</b>: {row.Description}</div>
-          <div><b>Aroma</b>: {row.Aroma}</div>
-          <div><b>Taste</b>: {row.Taste}</div>
-          <div><b>Finish</b>: {row.Finish}</div>
-        </React.Fragment>
-      )
-    };
+    // const expandRow = {
+    //   renderer: row => (
+    //     <React.Fragment>
+    //       <div><b>Look</b>: {row['description']}</div>
+    //       <div><b>Aroma</b>: {row.aroma}</div>
+    //       <div><b>Taste</b>: {row.taste}</div>
+    //       <div><b>Finish</b>: {row.finish}</div>
+    //     </React.Fragment>
+    //   )
+    // };
 
     return (
-      <div className="App">
+      <div className='App'>
         <ToolkitProvider
-          keyField="Name"
+          keyField='id'
           data={ beerData }
           columns={ columns }
           search
@@ -54,7 +55,6 @@ export default class App extends Component {
                 <hr />
                 <BootstrapTable
                   { ...props.baseProps }
-                  expandRow = { expandRow }
                 />
               </div>
             )
