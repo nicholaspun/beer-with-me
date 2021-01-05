@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "http://nicholaspun.github.io/beer-with-me",
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "react": "^16.13.0",
     "react-bootstrap-table-next": "^2.2.0",
     "react-bootstrap-table2-toolkit": "^1.4.2",
